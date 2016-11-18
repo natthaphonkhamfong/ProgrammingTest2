@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Registration {
     // Request repository
-    private ArrayList<IRequest> requestList;
+    private ArrayList<IRequest> requestList=new ArrayList<>();
 
     // Add new course, only request with non-exists studentID/courseID
     // is a valid request. Invalid request will cause an exception
